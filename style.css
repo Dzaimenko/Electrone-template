@@ -24,8 +24,6 @@ header {
 .title {
     display: inline-block;
     margin-right: 4em;
-    color: white;
-    font-family: 'Roboto', sans-serif;
 }
 
 .header__nav {
@@ -133,4 +131,61 @@ nav>button:hover {
     filter: brightness(0%) contrast(100%);
     width: 15px;
     height: 7px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo {
+    font-family: 'Roboto', sans-serif;
+    color: #003F62;
+    font-size: 43px;
+    font-weight: bold;
+    margin-left: 174px;
+    margin-top: 35px;
+    display: inline-block;
+    width: 175px;
+}
+
+.shop__now {
+    position: absolute;
+    padding: 25px 20px;
+    align-items: flex-end;
+    background-color: #eda415;
+    border: none;
+    color: #F4F4F4;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 216px;
+    margin-left: 174px;
+}
+
+.view__more {
+    position: absolute;
+    padding: 25px 20px;
+    color: #003F62;
+    margin-left: 337px;
+    margin-top: 216px;
+    background-color: white;
+    border-color: #003F62;
+    border-radius: 20px;
+    font-weight: bold;
+    border-width: 0.1px;
+    display: inline-block;
+}
+
+.product {
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 177px;
+    margin-top: 38px;
+}
+
+.promo__price {
+    position: absolute;
+    top: 385px;
+    left: 1653px;
 }
