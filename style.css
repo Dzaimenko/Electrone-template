@@ -145,36 +145,42 @@ section {
     font-size: 43px;
     font-weight: bold;
     margin-left: 174px;
-    margin-top: 35px;
-    display: inline-block;
+    margin-top: 5px;
+    display: block;
     width: 175px;
 }
 
 .shop__now {
     position: absolute;
-    padding: 25px 20px;
+    padding: 20px 20px;
     align-items: flex-end;
     background-color: #eda415;
     border: none;
     color: #F4F4F4;
     border-radius: 20px;
-    display: inline-block;
+    display: block;
     margin-top: 216px;
-    margin-left: 174px;
+    margin-left: 154px;
+}
+
+section>button,
+.eclips:hover {
+    cursor: pointer;
 }
 
 .view__more {
     position: absolute;
-    padding: 25px 20px;
+    padding: 20px 15px;
     color: #003F62;
-    margin-left: 337px;
+    margin-left: 300px;
     margin-top: 216px;
     background-color: white;
     border-color: #003F62;
     border-radius: 20px;
     font-weight: bold;
     border-width: 0.1px;
-    display: inline-block;
+    display: block;
+
 }
 
 .product {
@@ -188,4 +194,10 @@ section {
     position: absolute;
     top: 385px;
     left: 1653px;
+}
+
+.eclips {
+    margin: 0 -1190px;
+    margin-top: 350px;
+    margin-right: 15px;
 }
